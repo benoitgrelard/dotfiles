@@ -1,5 +1,5 @@
 # dotfiles
-all things setup.
+All things setup.
 
 ```bash
 git clone https://github.com/artisologic/dotfiles.git
