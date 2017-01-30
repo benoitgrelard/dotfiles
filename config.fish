@@ -7,6 +7,7 @@ alias .. "cd .."
 alias ... "cd ../.."
 alias .... "cd ../../.."
 alias ..... "cd ../../../.."
+alias - "cd -"
 
 # shortcuts
 alias dt "cd ~/Desktop"
