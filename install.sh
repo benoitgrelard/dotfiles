@@ -39,6 +39,12 @@ fi
 # change current shell to fish
 chsh -s /usr/local/bin/fish
 
+# install fisher
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
+
+# install z
+fisher z
+
 # install dracula iterm theme
 mkdir -p ~/.config/iterm
 curl https://raw.githubusercontent.com/dracula/iterm/master/Dracula.itermcolors > ~/.config/iterm/Dracula.itermcolors
