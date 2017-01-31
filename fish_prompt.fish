@@ -3,7 +3,7 @@ set -g fish_prompt_pwd_dir_length 0
 
 function _segment
 	set_color $argv[1]
-	echo -n -s "[" $argv[2..-1] "]"
+	echo -n -s $argv[2..-1] " "
 	set_color normal
 end
 
@@ -42,7 +42,7 @@ function _prompt_segment
 		set_color green
 	else
 		set_color red
-		echo -n "[$last_status]"
+		echo -n "→ $last_status"
 	end
 
 	echo ""
