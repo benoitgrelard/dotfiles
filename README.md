@@ -9,6 +9,13 @@ cd dotfiles
 
 Other things:
 
+- Install Apps:
+	- Google Chrome
+	- Dropbox
+	- Spectacle
+	- iTerm
+	- Atom
+	- Slack
 - Install OperatorMono font
 - Setup OperatorMono font in iTerm
 - Setup dracula theme in iTerm
