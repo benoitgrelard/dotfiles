@@ -26,12 +26,12 @@ alias gc "git commit"
 alias sudo "sudo "
 
 # show/hide hidden files in Finder
-alias show "defaults write com.apple.finder AppleShowAllFiles -bool true and killall Finder"
-alias hide "defaults write com.apple.finder AppleShowAllFiles -bool false and killall Finder"
+alias show "defaults write com.apple.finder AppleShowAllFiles -bool true; and killall Finder"
+alias hide "defaults write com.apple.finder AppleShowAllFiles -bool false; and killall Finder"
 
 # show/hide desktop (useful when presenting)
-alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true and killall Finder"
-alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false and killall Finder"
+alias showdesktop "defaults write com.apple.finder CreateDesktop -bool true; and killall Finder"
+alias hidedesktop "defaults write com.apple.finder CreateDesktop -bool false; and killall Finder"
 
 
 ############################################
