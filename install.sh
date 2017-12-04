@@ -21,6 +21,7 @@ brew install ruby
 
 # install other useful things
 brew install tree
+brew install watchman #to fix jest watch mode
 
 # remove outdated versions from the cellar
 brew cleanup
