@@ -59,3 +59,4 @@ ln -fs "$(pwd)/.hushlogin" ~/.hushlogin
 ln -fs "$(pwd)/config.fish" ~/.config/fish/config.fish
 ln -fs "$(pwd)/fish_prompt.fish" ~/.config/fish/functions/fish_prompt.fish
 ln -fs "$(pwd)/fish_title.fish" ~/.config/fish/functions/fish_title.fish
+ln -fs "$(pwd)/fish_greeting.fish" ~/.config/fish/functions/fish_greeting.fish
