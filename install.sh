@@ -22,6 +22,30 @@ brew install ruby
 # install other useful things
 brew install tree
 brew install watchman #to fix jest watch mode
+brew install yarn
+
+# enable alternate versions using cask
+brew tap homebrew/cask-versions
+
+# install apps
+# brew cask install 1password
+brew cask install appzapper
+brew cask install caffeine
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install skype
+brew cask install slack
+brew cask install spectacle
+brew cask install visual-studio-code
+brew cask install vlc
+
+# install quicklook plugins
+brew cask install qlcolorcode # syntax highlighting
+brew cask install qlstephen # extension-less text files
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install quicklook-csv
 
 # remove outdated versions from the cellar
 brew cleanup

@@ -7,15 +7,8 @@ cd dotfiles
 ./install.sh
 ```
 
-Other things:
+Remaining things:
 
-- Install Apps:
-	- Google Chrome
-	- Dropbox
-	- Spectacle
-	- iTerm
-	- Atom
-	- Slack
-- Install OperatorMono font
+- Install OperatorMono / OperatorMonoLig fonts
 - Setup OperatorMono font in iTerm
 - Setup dracula theme in iTerm
