@@ -37,6 +37,7 @@ brew cask install iterm2
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
+brew cask install tower2
 brew cask install visual-studio-code
 brew cask install vlc
 
