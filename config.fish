@@ -12,6 +12,7 @@ alias ..... "cd ../../../.."
 alias dt "cd ~/Desktop"
 alias dl "cd ~/Downloads"
 alias p "cd ~/Projects"
+alias me "cd ~/Projects/benoitgrelard"
 alias ml "cd ~/Projects/magicleap"
 
 # listings
