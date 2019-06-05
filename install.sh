@@ -21,7 +21,7 @@ brew install ruby
 
 # install other useful things
 brew install tree
-brew install watchman #to fix jest watch mode
+brew install watchman # to fix jest watch mode
 brew install yarn
 
 # enable alternate versions using cask
