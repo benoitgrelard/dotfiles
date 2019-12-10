@@ -16,8 +16,6 @@ brew upgrade
 # install basics stuff
 brew install fish
 brew install git
-brew install node
-brew install ruby
 
 # install other useful things
 brew install tree
@@ -28,18 +26,17 @@ brew install yarn
 brew tap homebrew/cask-versions
 
 # install apps
-# brew cask install 1password
+brew cask install 1password6
 brew cask install appzapper
 brew cask install caffeine
-brew cask install dropbox
+brew cask install firefox
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install skype
 brew cask install slack
 brew cask install spectacle
+brew cask install the-unarchiver
 brew cask install tower2
 brew cask install visual-studio-code
-brew cask install vlc
 
 # install quicklook plugins
 brew cask install qlcolorcode # syntax highlighting
