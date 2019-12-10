@@ -30,6 +30,7 @@ brew cask install 1password6
 brew cask install appzapper
 brew cask install caffeine
 brew cask install firefox
+brew cask install gfxcardstatus
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install slack
