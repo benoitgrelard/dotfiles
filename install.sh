@@ -69,6 +69,9 @@ curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 # install z
 fisher add jethrokuan/z
 
+# install fish-nvm
+fisher add jorgebucaran/fish-nvm
+
 # install dracula iterm theme
 mkdir -p ~/.config/iterm
 curl https://raw.githubusercontent.com/dracula/iterm/master/Dracula.itermcolors > ~/.config/iterm/Dracula.itermcolors
