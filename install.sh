@@ -28,15 +28,16 @@ brew tap homebrew/cask-versions
 # install apps
 brew cask install 1password6
 brew cask install appzapper
+brew cask install brave-browser
 brew cask install caffeine
 brew cask install firefox
 brew cask install gfxcardstatus
+brew cask install github
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install slack
 brew cask install spectacle
 brew cask install the-unarchiver
-brew cask install tower2
 brew cask install visual-studio-code
 
 # install quicklook plugins
