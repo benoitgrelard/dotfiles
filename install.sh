@@ -43,6 +43,7 @@ brew cask install slack
 brew cask install spectacle
 brew cask install the-unarchiver
 brew cask install visual-studio-code
+brew cask install zoomus
 
 # install drivers
 brew cask install logitech-options
