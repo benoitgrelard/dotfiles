@@ -22,23 +22,30 @@ brew install tree
 brew install watchman # to fix jest watch mode
 brew install yarn
 
-# enable alternate versions using cask
+# enable installing alternate app versions using cask
 brew tap homebrew/cask-versions
 
+# enable installing drivers using cask
+brew tap homebrew/cask-drivers
+
 # install apps
-brew cask install 1password6
+brew cask install 1password
 brew cask install appzapper
-brew cask install brave-browser
+brew cask install browserosaurus
 brew cask install caffeine
 brew cask install firefox
 brew cask install gfxcardstatus
 brew cask install github
 brew cask install google-chrome
 brew cask install iterm2
+brew cask install kap
 brew cask install slack
 brew cask install spectacle
 brew cask install the-unarchiver
 brew cask install visual-studio-code
+
+# install drivers
+brew cask install logitech-options
 
 # install quicklook plugins
 brew cask install qlcolorcode # syntax highlighting
