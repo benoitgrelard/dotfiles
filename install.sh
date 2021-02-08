@@ -5,7 +5,7 @@
 ############################################
 
 # install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # make sure we’re using the latest homebrew
 brew update
@@ -29,31 +29,33 @@ brew tap homebrew/cask-versions
 brew tap homebrew/cask-drivers
 
 # install apps
-brew cask install 1password
-brew cask install appzapper
-brew cask install browserosaurus
-brew cask install caffeine
-brew cask install firefox
-brew cask install gfxcardstatus
-brew cask install github
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install kap
-brew cask install slack
-brew cask install spectacle
-brew cask install the-unarchiver
-brew cask install visual-studio-code
-brew cask install zoomus
+brew install --cask 1password
+brew install --cask appzapper
+brew install --cask blender
+brew install --cask brave-browser
+brew install --cask browserosaurus
+brew install --cask caffeine
+brew install --cask discord
+brew install --cask firefox
+brew install --cask gfxcardstatus
+brew install --cask github
+brew install --cask google-chrome
+brew install --cask iterm2
+brew install --cask slack
+brew install --cask spectacle
+brew install --cask the-unarchiver
+brew install --cask visual-studio-code
+brew install --cask zoom
 
 # install drivers
-brew cask install logitech-options
+brew install --cask logitech-options
 
 # install quicklook plugins
-brew cask install qlcolorcode # syntax highlighting
-brew cask install qlstephen # extension-less text files
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install quicklook-csv
+brew install --cask qlcolorcode # syntax highlighting
+brew install --cask qlstephen # extension-less text files
+brew install --cask qlmarkdown
+brew install --cask quicklook-json
+brew install --cask quicklook-csv
 
 # remove outdated versions from the cellar
 brew cleanup
