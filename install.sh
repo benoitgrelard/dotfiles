@@ -88,6 +88,9 @@ mkdir -p ~/.config/iterm
 curl https://raw.githubusercontent.com/dracula/iterm/master/Dracula.itermcolors > ~/.config/iterm/Dracula.itermcolors
 open ~/.config/iterm/Dracula.itermcolors
 
+# install dracula fish color mapping
+ curl https://raw.githubusercontent.com/dracula/fish/master/conf.d/dracula.fish > ~/.config/fish/conf.d/dracula.fish
+
 # finally symlink everything
 ln -fs "$(pwd)/.editorconfig" ~/.editorconfig
 ln -fs "$(pwd)/.gitconfig" ~/.gitconfig
