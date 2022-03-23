@@ -14,6 +14,7 @@ alias dl "cd ~/Downloads"
 alias p "cd ~/Projects"
 alias me "cd ~/Projects/benoitgrelard"
 alias mz "cd ~/Projects/modulz"
+alias wos "cd ~/Projects/workos"
 
 # listings
 alias l "ls -laF"
