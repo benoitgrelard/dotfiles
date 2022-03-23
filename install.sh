@@ -31,18 +31,15 @@ brew tap homebrew/cask-drivers
 # install apps
 brew install --cask 1password
 brew install --cask appzapper
-brew install --cask blender
-brew install --cask brave-browser
 brew install --cask browserosaurus
-brew install --cask caffeine
 brew install --cask discord
 brew install --cask firefox
 brew install --cask gfxcardstatus
 brew install --cask github
 brew install --cask google-chrome
 brew install --cask iterm2
+brew install --cask raycast
 brew install --cask slack
-brew install --cask spectacle
 brew install --cask the-unarchiver
 brew install --cask visual-studio-code
 brew install --cask zoom
@@ -89,7 +86,7 @@ curl https://raw.githubusercontent.com/dracula/iterm/master/Dracula.itermcolors 
 open ~/.config/iterm/Dracula.itermcolors
 
 # install dracula fish color mapping
- curl https://raw.githubusercontent.com/dracula/fish/master/conf.d/dracula.fish > ~/.config/fish/conf.d/dracula.fish
+curl https://raw.githubusercontent.com/dracula/fish/master/conf.d/dracula.fish > ~/.config/fish/conf.d/dracula.fish
 
 # finally symlink everything
 ln -fs "$(pwd)/.editorconfig" ~/.editorconfig
