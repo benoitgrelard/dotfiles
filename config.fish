@@ -43,3 +43,11 @@ alias hidedesktop "defaults write com.apple.finder CreateDesktop -bool false; an
 function mkd
 	mkdir -p $argv; and cd $argv
 end
+
+############################################
+# OTHER
+############################################
+
+# volta (https://volta.sh/)
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
