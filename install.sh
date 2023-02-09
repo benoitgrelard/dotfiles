@@ -31,8 +31,8 @@ brew tap homebrew/cask-drivers
 # install apps
 brew install --cask 1password
 brew install --cask appzapper
-brew install --cask browserosaurus
 brew install --cask discord
+brew install --cask finicky
 brew install --cask firefox
 brew install --cask github
 brew install --cask google-chrome
@@ -96,3 +96,4 @@ ln -fs "$(pwd)/config.fish" ~/.config/fish/config.fish
 ln -fs "$(pwd)/fish_prompt.fish" ~/.config/fish/functions/fish_prompt.fish
 ln -fs "$(pwd)/fish_title.fish" ~/.config/fish/functions/fish_title.fish
 ln -fs "$(pwd)/fish_greeting.fish" ~/.config/fish/functions/fish_greeting.fish
+ln -fs "$(pwd)/.finicky.js" ~/.finicky.js
