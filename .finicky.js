@@ -1,4 +1,4 @@
-const WORK_APPS = ['Code', 'Discord', 'GitHub Desktop', 'iTerm2', 'Slack'];
+const WORK_APPS = ['Code', 'Discord', 'GitHub Desktop', 'iTerm2', 'Slack', 'zoom.us'];
 
 module.exports = {
   defaultBrowser: 'Safari',
